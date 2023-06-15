@@ -20,7 +20,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-padding: 6rem;
+    scroll-padding-top: 6rem;
 
 }
 body{
@@ -209,7 +209,7 @@ section{
     }
 
     header .navbar .active{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
     header .navbar a{
