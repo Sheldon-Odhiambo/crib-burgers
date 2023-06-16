@@ -33,6 +33,18 @@ section{
     padding: 2rem 9%;
 }
 
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #666;
+
+}
+
+.heading span{
+    color: var(--red);
+}
+
 .btn{
     display: inline-block;
     padding: .8rem 3rem;
@@ -195,7 +207,7 @@ header .navbar a:hover{
     gap: 1.5rem;
     min-height: 100vh;
     align-items: center;
-    background: url(./images/dw21batch4-sasi-42\ \(1\).png) no-repeat;
+    background: url(./images/front-view-burger-with-french-fries.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -223,11 +235,37 @@ header .navbar a:hover{
 
 .home .content h3{
     font-size: 5rem;
-    color: #333;
+    color:var(--red);
 }
 
 .home .content p{
     font-size: 1.7rem;
     color: #666;
+    padding: 1rem 0;
+
+}
+
+.speciality .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.speciality .box-container .box{
+    flex: 1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1 );
+    border: .1rem solid rgba(0,0,0,.3 );
+    cursor: pointer;
+    border-radius: .1rem;
+}
+
+.speciality .box-container .box .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -0% left: 0;
 
 }
