@@ -412,7 +412,7 @@ header .navbar a:hover{
 }
 
 .gallery .box-container .box:hover .content{
-    top: 0;
+    bottom: 0;
 }
 
 
