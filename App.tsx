@@ -163,11 +163,11 @@ const StorySection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl bg-stone-100 transform -rotate-3 hover:rotate-0 transition-transform duration-700">
-              <img 
+              {/* <img 
                 src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800" 
                 alt="Grill Action" 
                 className="w-full h-full object-cover"
-              />
+              /> */}
             </div>
             <div className="absolute -bottom-10 -right-10 bg-stone-900 p-10 rounded-[2.5rem] shadow-2xl hidden sm:block transform rotate-3">
               <Heart className="text-orange-600 w-12 h-12 mb-4 animate-bounce" />
@@ -600,11 +600,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-8">
-              <img
+              {/* <img
                       src="/images/crib-logo.png"
                       alt="Crib Burgers Logo"
                       className="w-12 h-12 rounded-xl object-contain shadow-lg"
-                    />
+                    /> */}
 
               <div>
                 <h1 className="text-3xl font-heading text-white tracking-widest uppercase">CRIB BURGERS</h1>
