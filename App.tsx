@@ -54,11 +54,11 @@ const Navbar = ({ cartCount, onOpenCart }: { cartCount: number, onOpenCart: () =
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center gap-2">
-            <img
+            {/* <img
                   src="/images/crib-logo.png"
                   alt="Crib Burgers Logo"
                   className="w-12 h-12 rounded-xl object-contain shadow-lg"
-                />
+                /> */}
             <div>
               <h1 className="text-2xl font-heading text-white tracking-wider">CRIB BURGERS</h1>
               <p className="text-[10px] text-orange-500 font-bold tracking-[0.2em] uppercase -mt-1">The Crib Kitchen</p>
