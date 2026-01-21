@@ -155,7 +155,7 @@ export const MERCH_DATA: MenuItem[] = [
     id: 'm8',
     name: 'Oversized Hoodie',
     price: 2500,
-    description: 'cotton hoodies ',
+    description: 'cotton hoodies',
     category: 'Accessories',
     image: './assets/oversized-hoodie.jpeg',
     type: 'merch'
