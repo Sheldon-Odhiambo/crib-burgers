@@ -100,28 +100,28 @@ export const MERCH_DATA: MenuItem[] = [
   {
     id: 'm1',
     name: 'The Visionary T-Shirt',
-    price: 1500,
+    price: 1000,
     description: 'Premium heavy cotton tee featuring the Crib Burgers "Ministry Kitchen" logo on the chest.',
     category: 'Apparel',
-    image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&q=80&w=800',
+    image: './assets/vision.jpeg',
     type: 'merch'
   },
   {
     id: 'm5',
-    name: 'Kenya Flag Edition Tee',
-    price: 1650,
+    name: 'Congo Flag Edition Tee',
+    price: 1200,
     description: 'The iconic Crib logo masked with the Kenyan flag. Celebrate our Rongai roots in style.',
     category: 'Apparel',
-    image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&q=80&w=800',
+    image: './assets/congo.jpeg',
     type: 'merch'
   },
   {
     id: 'm6',
     name: 'Zimbabwe Flag Edition Tee',
-    price: 1650,
+    price: 1500,
     description: 'The iconic Crib logo masked with the Zimbabwe flag. Representing the Harare heartbeat.',
     category: 'Apparel',
-    image: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&q=80&w=800',
+    image: './assets/zimw.jpeg',
     type: 'merch'
   },
   {
@@ -130,7 +130,7 @@ export const MERCH_DATA: MenuItem[] = [
     price: 3500,
     description: 'Ultra-soft fleece hoodie with "A Story of Hope" embroidered on the sleeve. Perfect for chilly Rongai nights.',
     category: 'Apparel',
-    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=800',
+    image: './assets/mini-hoodie.jpeg',
     type: 'merch'
   },
   {
@@ -139,7 +139,7 @@ export const MERCH_DATA: MenuItem[] = [
     price: 1800,
     description: 'Drop-shoulder relaxed fit with a large Crib Kitchen graphic on the back. Modern urban style.',
     category: 'Apparel',
-    image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&q=80&w=800',
+    image: './assets/streetwear.jpeg',
     type: 'merch'
   },
   {
@@ -153,11 +153,11 @@ export const MERCH_DATA: MenuItem[] = [
   },
   {
     id: 'm8',
-    name: 'Hope Ministry Tote',
-    price: 600,
-    description: 'Sustainable canvas bag for your daily essentials. Features "Serving Hope" typography.',
+    name: 'Oversized Hoodie',
+    price: 2500,
+    description: 'cotton hoodies ',
     category: 'Accessories',
-    image: 'https://images.unsplash.com/photo-1544816153-12ad58913c3f?auto=format&fit=crop&q=80&w=800',
+    image: './assets/oversized-hoodie.jpeg',
     type: 'merch'
   },
   {
