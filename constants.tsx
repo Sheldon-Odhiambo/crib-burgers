@@ -29,7 +29,7 @@ export const MENU_DATA: MenuItem[] = [
     id: 't1',
     name: 'Texas Big Batch',
     price: 330,
-    description: 'Our premium Texas-style burger with bold flavors and hearty seasoning.',
+    description: 'Onions, tomato, lettuce, special sweet sauce, roasted burn, melted cheese, seasoned beef chicken patty and seasoned egg',
     category: 'Texas',
     image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=800',
     type: 'food'
@@ -38,7 +38,7 @@ export const MENU_DATA: MenuItem[] = [
     id: 't2',
     name: 'Texas Junior',
     price: 210,
-    description: 'A lighter Texas-style burger with that signature kick.',
+    description: 'Onions, tomato, lettuce, special sweet sauce, roasted burn,seasoned beef chicken patty and seasoned egg',
     category: 'Texas',
     image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=800',
     type: 'food'
@@ -47,7 +47,7 @@ export const MENU_DATA: MenuItem[] = [
     id: 'mf1',
     name: 'My Friend Special',
     price: 190,
-    description: 'A friendly favorite seasoned with love and the crib secret spices.',
+    description: 'onions, Tomato Lettuce, special sauce, roasted burn, melted cheese, seasoned beef, chicken patty.',
     category: 'My Friend',
     image: 'https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?auto=format&fit=crop&q=80&w=800',
     type: 'food'
@@ -56,7 +56,7 @@ export const MENU_DATA: MenuItem[] = [
     id: 'mf2',
     name: 'My Friend Basic',
     price: 140,
-    description: 'Simple, delicious, and perfectly budget-friendly for our friends.',
+    description: 'onions, Tomato Lettuce, special sauce, roasted burn, seasoned beef, chicken patty.',
     category: 'My Friend',
     image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
     type: 'food'
