@@ -11,7 +11,7 @@ export const MENU_DATA: MenuItem[] = [
     id: 's1',
     name: 'Crib Signature Duo',
     price: 430,
-    description: 'Onions, tomato, lettuce, special sweet sauce, drip cheese, melted roasted bun, 2 layers of seasoned beef/chicken patty and bacon.',
+    description: 'Onions, tomato, lettuce, special sweet sauce, drip cheese, melted roasted bun, and 2 layers of seasoned beef/chicken patty.',
     category: 'Signature',
     image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800',
     type: 'food'
