@@ -54,11 +54,11 @@ const Navbar = ({ cartCount, onOpenCart }: { cartCount: number, onOpenCart: () =
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center gap-2">
-            {/* <img
+            <img
                   src="/images/crib-logo.png"
                   alt="Crib Burgers Logo"
                   className="w-12 h-12 rounded-xl object-contain shadow-lg"
-                /> */}
+                /> 
             <div>
               <h1 className="text-2xl font-heading text-white tracking-wider">CRIB BURGERS</h1>
               <p className="text-[10px] text-orange-500 font-bold tracking-[0.2em] uppercase -mt-1">The Crib Kitchen</p>
@@ -119,7 +119,8 @@ const Hero = () => {
             <span className="text-orange-500 underline decoration-white/20 underline-offset-8">YOUR SOUL CRAVES FOR .</span>
           </h1>
           <p className="text-xl text-stone-300 mb-10 max-w-xl leading-relaxed">
-            Watch how Crib Burgers turned a simple meal into a moment of kindness and connection. Born in 2021, currently serving <strong>Rongai</strong>.
+           Fresh ingredients, seasoned to perfection, and stacked high.
+At Crib Burgers, every burger is made to spark smiles, bring people together, and reflect God’s love through genuine community. <strong>Ouuuuch!</strong>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a 
@@ -178,29 +179,22 @@ const StorySection = () => {
           
           <div className="order-1 lg:order-2">
             <div className="mb-10">
-               <h2 className="text-orange-600 font-bold uppercase tracking-[0.3em] text-sm mb-4">The Origin Story</h2>
+               <h2 className="text-orange-600 font-bold uppercase tracking-[0.3em] text-sm mb-4">Our Story</h2>
                <h3 className="text-5xl md:text-6xl font-heading text-stone-900 mb-6 uppercase leading-[0.9]">
                  A Burger, A Smile, <br />
                  <span className="text-stone-300">A Story of Hope.</span>
                </h3>
                <p className="text-stone-500 text-lg leading-relaxed font-serif italic mb-8 border-l-4 border-orange-600 pl-6 py-2">
-                 "My name is Keith Tadiwanashe Manokore, and this is how a simple burger changed my life."
+                 "I am because we are, and this is how a simple burger changed my life."
                </p>
             </div>
             
             <div className="space-y-6 text-stone-600 leading-relaxed text-lg">
               <p>
-                It all began in 2021 while I was studying Christian Ministries (Management option) at <strong>Africa Nazarene University</strong>. In between lectures and assignments, I started selling burgers to students, lecturers, and staff. What started as a small side hustle quickly became something much deeper.
+                Crib Burgers started with one burger shared to make a friend.
+What began as simple connection grew into a business that creates space for community, joy, and faith. Through great food and genuine relationships, we exist to bring smiles, build friendships, and share hope—one burger at a time.
               </p>
-              <p>
-                Every time I handed someone a burger, I also shared a smile, encouragement, and sometimes even a prayer. I began to see how food opens doors, brings people together, and creates meaningful conversations. <strong>I realized this wasn’t just business—it was ministry.</strong>
-              </p>
-              <p>
-                That is the moment Crib Burgers was born: A dream to serve great food while serving people, bringing hope, building community, and creating opportunities for young people.
-              </p>
-              <p>
-                Today, that dream continues to take shape. While my roots are in <strong>Harare, Zimbabwe</strong>, I am currently bringing this mobile burger ministry to the streets of <strong>Rongai, Kenya</strong>, creating jobs and supporting my urban ministry project, <strong>Crib Connection</strong>.
-              </p>
+              
             </div>
           </div>
         </div>
