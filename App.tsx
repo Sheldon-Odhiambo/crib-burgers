@@ -115,8 +115,8 @@ const Hero = () => {
             A Burger, A Smile, A Story of Hope
           </span>
           <h1 className="text-6xl md:text-8xl font-heading text-white mb-6 leading-tight drop-shadow-2xl">
-            A SIMPLE <br />
-            <span className="text-orange-500 underline decoration-white/20 underline-offset-8">BURGER CHANGED MY LIFE.</span>
+            The Burger <br />
+            <span className="text-orange-500 underline decoration-white/20 underline-offset-8">YOUR SOUL CRAVES FOR .</span>
           </h1>
           <p className="text-xl text-stone-300 mb-10 max-w-xl leading-relaxed">
             Watch how Crib Burgers turned a simple meal into a moment of kindness and connection. Born in 2021, currently serving <strong>Rongai</strong>.
